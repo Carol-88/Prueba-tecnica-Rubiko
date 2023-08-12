@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5050:5000"
+
+  curl:
+    image: curlimages/curl:latest
+    command: ["sh", "-c", "curl http://web:5000/health"]

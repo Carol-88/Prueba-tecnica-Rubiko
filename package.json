@@ -1,0 +1,14 @@
+{
+  "name": "prubiko",
+  "version": "1.0.0",
+  "description": "prueba docker kubernetes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carolina Romero Cotan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

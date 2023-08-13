@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "b6d611b7-fa04-4ee3-99d2-9ab1c699ae3e",
+		"name": "Prueba Técnica Docker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24890795"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/health",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/health"
+			},
+			"response": []
+		}
+	]
+}
